@@ -1,9 +1,9 @@
 FROM node:12-alpine
 
-ADD views /app/views
-ADD package.json /app
-ADD server.js /app
-ADD .env /app
+COPY views /app/views
+COPY package.json /app
+COPY server.js /app
+COPY .env /app
 
 RUN cd /app; npm install
 
