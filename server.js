@@ -47,7 +47,7 @@ if (dotenv.error) {
 // console.log(`NLU_APIKEY: ${NLU_APIKEY}`);
 // console.log(`NLU_URL: ${NLU_URL}`);
 // console.log(`CLOUDANT_API: ${CLOUDANT_API}`);
-// console.log(`CLOUDANT_URL: ${CLOUDANT_URL}`);
+console.log(`CLOUDANT_URL: ${CLOUDANT_URL}`);
 
 if (CLOUDANT_API && CLOUDANT_URL) {
   var Cloudant = require('@cloudant/cloudant');
