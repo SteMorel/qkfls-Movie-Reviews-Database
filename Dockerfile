@@ -11,5 +11,5 @@ ENV NODE_ENV production
 ENV PORT 8080
 EXPOSE 8080
 
-WORKDIR "./app"
+WORKDIR "/app"
 CMD [ "npm", "start" ]
