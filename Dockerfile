@@ -3,7 +3,7 @@ FROM node:12-alpine
 COPY views /app/views
 COPY package.json /app
 COPY server.js /app
-//COPY .env /app
+
 
 RUN cd /app; npm install
 
