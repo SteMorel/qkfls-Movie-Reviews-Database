@@ -58,7 +58,7 @@ if (CLOUDANT_API && CLOUDANT_URL) {
     if (!err) //err if database doesn't already exists
       console.log("Created database: " + dbName);
   });
-  console.log(" DB NAME: "+dbName;
+  console.log(" DB NAME: "+dbName);
   moviesDb = cloudant.db.use(dbName);
 }
 
