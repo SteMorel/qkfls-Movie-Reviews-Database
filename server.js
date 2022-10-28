@@ -169,7 +169,6 @@ function checkServiceCredentials() {
       errors.push(strings.NLU_PROBLEM);
     }
   }
-  console.log(" ERRORS ");
   return errors;
 }
 
